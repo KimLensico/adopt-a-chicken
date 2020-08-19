@@ -1,0 +1,53 @@
+body {
+    background-color: #EEE0B7;
+    margin: 0% 5% 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+h1 {
+    text-align: center;
+    border: solid 1px;
+    background-color: #EBEFC9; 
+    font-size: 75px;
+    display: inline;
+    padding: 30px 5% 20px;
+}
+
+nav > ul > li {
+border: solid #E8CAAF 1px;
+text-align: center;
+display: inline;
+margin: 2%;
+padding: 10px;
+font-size: 15px;
+}
+
+#icon {
+width: 250px;
+}
+
+section {
+    background-color: ##EEE0B7;
+    padding: 1% 25% 0% 
+    }
+
+
+#mission {
+    font-size: 20px;
+    background-color: #EBEFC9;
+}
+
+#warning { 
+    font-size: 15px;
+    background-color: #E8CAAF
+}
+
+footer p {
+    text-align: center;
+    margin: 0% 30% 0%;
+    font-size: 10px;
