@@ -1,8 +1,8 @@
 'use strict'
 
-var question = prompt('Are chickens friends? (Yes/Not Yes)');
+var questn = prompt("Are chickens friends? (Yes/Not Yes) ");
 
-alert('Answer: ABSOLUTELY');
+alert("ABSOLUTELY");
   
 if (confirm('Please confirm that you are over the age of eighteen to legally adopt a chicken.')) {
     document.write('<section>' + 'Welcome to the Nest!' + '</section>')
