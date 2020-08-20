@@ -1,6 +1,6 @@
 'use strict'
 
-var questn = prompt("Are chickens friends? (Yes/Not Yes) ");
+var questn = prompt('Please answer the question. Are chickens friends: ');
 
 alert("ABSOLUTELY");
   
