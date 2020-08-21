@@ -71,6 +71,11 @@ h1 {
 
 h2 {
     font-family: Gochi Hand;
+    color: #4B4B4B;
+    background: #EEE0B7;
+    display: inline;
+    margin: 0% 1% 0% ;
+    padding: 0% 1% 0%;
 }
 
 #navigation {
@@ -94,7 +99,7 @@ h2 {
     padding: 1% 1% 1%;
     font-size: 15px;
     border-radius: 10px;
-    border: solid #E8CAAF 1px;
+    border: solid #AAB3AB 1px;
 }
 #navigation a:visited {
     text-decoration: none;
@@ -110,11 +115,11 @@ h2 {
     padding: 1% 1% 1%;
     font-size: 15px;
     border-radius: 10px;
-    border: solid #E8CAAF 1px;
+    border: solid #AAB3AB 1px;
 }
 
 #navigation a:hover {
-    text-decoration: underline;
+    text-decoration: underline #F5A685;
     background-color: #AAB3AB;
     border: solid #AAB3AB 1px;
     color: white;
@@ -168,7 +173,7 @@ article {
 
 #mission {
     font-size: 18px;
-    padding: 5% 5% 5%;
+    padding: 2% 2% 2%;
     text-align: left;
     background-color: #EBEFC9;
 }
