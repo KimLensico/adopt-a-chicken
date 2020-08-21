@@ -2,6 +2,7 @@ body {
     background: #E8CAAF;
     margin: 0% 5% 0%;
     font-family: Calibri;
+    text-align: center;
     }
       
 #myBtn {
@@ -33,11 +34,34 @@ header {
     text-align: center;
     overflow: auto;
     border-top-left-radius: 50px;
+    text-decoration: none;
+  }
+
+  header a:link {
+    text-decoration: none;
+    color: white;
+  } 
+  
+  header a:hover {
+    text-decoration: none;
+    color: white;
+  } 
+
+  header a:visited {
+    text-decoration: none;
+    color: white;
+  } 
+  
+ header a:active {
+    text-decoration: none;
+    color: white;
   }
 
 h1 {
     font-family: Gochi Hand; 
-    border: solid 1px;
+    border: solid 2px #F5A685;
+    color: white;
+    -webkit-text-stroke: .50px #4B4B4B;
     background-color: #EBEFC9; 
     font-size: 60px;
     display: inline;
@@ -49,19 +73,38 @@ h2 {
     font-family: Gochi Hand;
 }
 
-nav {
+#navigation {
     background:#F5A685;
     padding: 0% 0% 0%;
     margin: 0% 0% 0%;
     display: inline;
 }
 
-a:link, a:visited {
+#navigation a:link {
     text-decoration: none;
     background: #E8CAAF;
-    color: white;
-    -webkit-text-stroke: 1%;
+    color: #fff;
+    text-shadow: 0px 0px 2px #000000;
+    -webkit-text-stroke: .25px black;
+    -webkit-text-fill-color-:white; 
     border-radius: 10px;
+    font-weight: bold; 
+    border: solid #E8CAAF 1px;
+    margin: 0% 2% 0%;
+    padding: 1% 1% 1%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: solid #E8CAAF 1px;
+}
+#navigation a:visited {
+    text-decoration: none;
+    background: #E8CAAF;
+    color: #fff;
+    text-shadow: 0px 0px 2px #000000;
+    -webkit-text-stroke: .25px black;
+    -webkit-text-fill-color-:white; 
+    border-radius: 10px;
+    font-weight: bold; 
     border: solid #E8CAAF 1px;
     margin: 0% 2% 0%;
     padding: 1% 1% 1%;
@@ -70,7 +113,7 @@ a:link, a:visited {
     border: solid #E8CAAF 1px;
 }
 
-a:hover {
+#navigation a:hover {
     text-decoration: underline;
     background-color: #AAB3AB;
     border: solid #AAB3AB 1px;
@@ -82,9 +125,11 @@ a:hover {
     font-size: 15px;
     font-weight: bold;
     border-radius: 10px;
+    -webkit-text-stroke: 1%;
+    -webkit-text-stroke-color: #ffffff;
 }
 
-a:active {
+#navigation a:active {
     text-decoration: underline;
     text-decoration-color: #AAB3AB
 }
@@ -122,7 +167,9 @@ article {
     } 
 
 #mission {
-    font-size: 20px;
+    font-size: 18px;
+    padding: 5% 5% 5%;
+    text-align: left;
     background-color: #EBEFC9;
 }
 
@@ -134,14 +181,39 @@ article {
 
 #warning { 
     font-size: 13px;
+    text-align: left;
     background-color: #E8CAAF;
     padding: 5% 5% 5%;
     text-transform: uppercase;
 }
 
+
+
 footer {
-    text-align: center;
-    margin: 0% 30% 0%;
+    text-decoration: none;
+    display: inline;
+    color: #4B4B4B;
+    margin: 0% 50% 0%;
+    padding: 0% 50% 0%;
     font-size: 10px;
 }
 
+footer a:link {
+    text-decoration: none;
+    color: #4B4B4B;
+  } 
+  
+footer a:hover {
+    text-decoration: underline;
+    color: #4B4B4B;
+  } 
+
+ footer a:visited {
+    text-decoration: none;
+    color: #4B4B4B;
+  } 
+  
+footer a:active {
+    text-decoration: none;
+    color: #4B4B4B;
+  }
