@@ -1,4 +1,5 @@
 'use strict'
+// chicken question
 
 function chickQuestion() {
     var correctAnswer = 12;
@@ -24,6 +25,8 @@ function chickQuestion() {
 
 chickQuestion();
 
+//verifying age 
+
 function verifyAge() {
     var age; 
     var ok = confirm('Please press "OK" if you are 18+ in order to adopt a chicken.')
@@ -37,4 +40,52 @@ function verifyAge() {
 
 verifyAge();
 
+// background changes
+
 object.style.backgroundColor = "color|transparent|initial|inherit"
+
+function redBackg() {
+    document.body.style.backgroundColor = "#A8231A";
+  }
+
+  function beigeBackg() {
+    document.body.style.backgroundColor = 
+    "#E8CAAF";
+  }
+ 
+  function orangeBackg() {
+    document.body.style.backgroundColor = 
+    "#DCA01E";
+  }
+
+  function whiteBackg() {
+    document.body.style.backgroundColor = 
+    "#FFFFFF";
+  }
+
+  function blackBackg() {
+    document.body.style.backgroundColor = 
+    "#000000";
+  }
+
+//Get the button
+
+var mybutton = document.getElementById("myBtn");
+    
+// When the user scrolls down 20px from the top of the document, show the button
+
+window.onscroll = function() {scrollFunction()};
+      
+function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
